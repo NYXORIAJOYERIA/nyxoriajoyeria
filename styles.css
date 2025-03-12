@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f2;
+    color: #333;
+}
+header {
+    background-color: #d4af37;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url('https://via.placeholder.com/1200x500?text=Bienvenidos+a+AURUM+JOYERÍA');
+    background-size: cover;
+    color: white;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.whatsapp a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
